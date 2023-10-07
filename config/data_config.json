@@ -1,0 +1,27 @@
+{
+    "data": ["/datasets/srp073813/"],
+    "tools": {
+        "STAR": {
+            "tool_dir": "/opt/STAR-2.5.2b/bin/Linux_x86_64/STAR"
+        },
+        "kallisto": {
+            "tool_dir": "/opt/kallisto_linux-v0.42.4/kallisto",
+            "index": "/datasets/srp073813/reference/kallisto_transcripts.idx"
+        },
+        "bcftools": {
+            "tool_dir": "/opt/bcftools-1.10.2/bcftools"
+        },
+        "FastQC": {"tool_dir": "/opt/FastQC/fastqc"}
+    },
+    "processed": {
+        "fastq": "./data/processed/fastqc",
+        "kallisto": "./data/processed/kallisto",
+        "STAR": "./data/processed/STAR"
+    },
+    "test": {
+        "test_data_dir": "./test/test_data/fastq",
+        "test_processed_dir": {"kallisto": "./test/test_data/processed/kallisto"},
+
+        "test_kallisto_data": "./test/test_kallisto_data"
+    }
+}

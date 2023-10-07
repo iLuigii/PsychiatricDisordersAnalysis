@@ -1,0 +1,9 @@
+{
+	"n_targets": 78751,
+	"n_bootstraps": 0,
+	"n_processed": 50660466,
+	"kallisto_version": "0.42.4",
+	"index_version": 10,
+	"start_time": "Mon Dec  7 23:04:21 2020",
+	"call": "/opt/kallisto_linux-v0.42.4/kallisto quant -i /datasets/srp073813/reference/kallisto_transcripts.idx -o ./data/processed/kallisto/SRR3438562 -t 8 /datasets/srp073813/SRR3438562_1.fastq.gz /datasets/srp073813/SRR3438562_2.fastq.gz"
+}

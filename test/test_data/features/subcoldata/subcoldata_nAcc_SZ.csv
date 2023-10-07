@@ -1,0 +1,5 @@
+Run,Age,PMI,pH,brain_region,Disorder
+SRR3438559,31,22.0,6.77,nAcc,Schizophrenia
+SRR3438560,43,26.0,7.1,nAcc,Control
+SRR3438561,45,21.0,6.86,nAcc,Control
+SRR3438562,53,34.0,6.78,nAcc,Schizophrenia
